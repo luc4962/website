@@ -1,0 +1,13 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+img{
+    width: 100%;
+}
+.list_img{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: bisque;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,20% 80%);
+    margin-top: 20px;
+}
+.main-content{
+    box-shadow: 0 0 10px #bebebe;
+    padding: 20px;
+    border-radius: 10px;
+}
+.group-control{
+    margin-top: 30px;
+}
+.label1{
+    margin-bottom: 20px;
+}
+.form-control{
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+}
+.btn-control{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+.btn-control:hover{
+    box-shadow: 0 0 5px red;
+}
+
+
